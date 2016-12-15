@@ -5,8 +5,9 @@ var mongoose = require('mongoose');
 var Contact = require('../models/Contact.js');
 
 router.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Headers", "Access-Control-Allow-Origin, Origin, Content-Type, Accept, Charset");
+  res.header('Access-Control-Allow-Origin', '*');
+  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+  res.header('Access-Control-Allow-Headers', 'Access-Control-Allow-Origin, Origin, Content-Type, Accept, Charset');
   next();
 });
 
