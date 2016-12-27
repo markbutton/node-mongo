@@ -1,5 +1,6 @@
 # node-mongo
 [Node.js](https://github.com/nodejs/node), [Express.js](https://github.com/expressjs/express) and [MongoDB](https://github.com/mongodb/mongo) Rest API 
+
 [![MIT license](http://img.shields.io/badge/license-MIT-lightgrey.svg)](http://opensource.org/licenses/MIT)
 
 # MEAN Backend Example
